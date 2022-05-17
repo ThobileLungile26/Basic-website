@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f5ebe0;
+            flex: 1;
+        }
+        @media (min-width: 600px){
+            body {
+                background-color: #ffc300;
+            }
+        }
+        @media (min-width: 960px) {
+        body {
+            background-color: #f5ebe0;
+        }
+    }
+
+        h1 {
+            text-align: left;
+            font-size: xx-large;
+            color: #b5838d;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            float: left;
+        }
+    
+        img {
+            margin: auto;
+            display: block;
+        }
+
+
+        .Picture {
+            margin-left: 8em;
+            margin-top: 0em;
+
+        }
+        .Pictures {
+            padding-left: 8em;
+            margin-top: 0em;
+            align-content: center;
+        }
+        @media (min-width: 900px) {
+        .container {
+            display: flex;
+        }
+    }
+        .Image {
+            margin-right: 5em;
+        }
+
+        @media (min-width: 900px) {
+            .city {
+            display: flex;
+            width: 65%;
+            
+        }
+    }
+
+        table,
+        th,
+        td {
+            border: 5px solid black;
+            border-collapse: collapse;
+            font-size: large;
+            table-layout: auto;
+        }
+        @media (min-width: 900px) {
+            .Subjects {
+                display: flex;
+                display: inline-flexbox;
+            }
+            }
+            @media (min-width: 900px) {
+            .subject {
+                width: 33.3%;
+            }
+            }
+           
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="Picture">
+            <h1>THOBILE LUNGILE MBATHA</h1>
+        </div>
+        <div class="Pictures" ><img src="pic-me.jpg" alt="">
+        </div>
+    </div>
+
+    <h2>PARIS</h2>
+    <div class="city">
+        <div class="city-image"><img  style="width:25em;" src="City-of-love.jpg" alt=""></div>
+        <div> Paris is one of the most beautiful cities in the world. It is known worldwide for the Louvre Museum,
+            Notre-Dame cathedral, and the Eiffel tower. It has a reputation of being a romantic and cultural city. The
+            city is also known for its high-quality gastronomy and the terraces of its cafés.
+        </div>
+    </div>
+
+    <div class="table"> 
+       <div> <h2>FRENCH</h2> </div>
+       <div>
+    <table  style="width:100%">
+        <tr>
+            <td> ENGLISH </td>
+            <td> FRENCH</td>
+        </tr>
+        <tr>
+            <td> Hello</td>
+            <td>Bonjour</td>
+        </tr>
+        <tr>
+            <td>How are you?</td>
+            <td>Comment allez-vous</td>
+        </tr>
+        <tr>
+            <td>I am good, thanks</td>
+            <td>Je vais bien merci</td>
+        </tr>
+    </table>
+</div>
+</div>
+<div class="contains">
+    <h2>FAVOURITE SUBJECTS</h2>
+    <div class="Subjects">
+        <div class="subject" style="background-color: #8d99ae;">
+            <h2>4IR Bootcamp</h2>
+            <img src="4IRBOOT.jpg" alt=""><br>
+        </div>
+        <div class="subject" style="background-color: #ef233c;">
+            <h2>Agile Rapid Skills Acquisition</h2>
+            <img src="agile-rapid-acqu.jpg" alt=""><br>
+        </div>
+        <div class="subject" style="background-color: #9b5de5;">
+            <h2>Full Stack Web Development</h2>
+            <img src="images.png" alt=""><br>
+        </div>
+
+</body>
+
+</html>
